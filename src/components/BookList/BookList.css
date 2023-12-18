@@ -1,0 +1,9 @@
+.BookList {
+	display: flex;
+	justify-content: center;
+	width: 70%;
+	height: 70vh;
+	margin-left: 15%;
+	flex-wrap: wrap;
+	overflow-y: auto;
+}

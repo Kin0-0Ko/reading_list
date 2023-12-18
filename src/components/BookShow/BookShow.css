@@ -1,0 +1,41 @@
+.BookShow {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	padding: 5px;
+	flex-direction: column;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.BookShow_top{
+	height: 18%;
+	display: flex;
+	justify-content: end;
+}
+.BookShow_mid{
+	height: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+img{
+	height: 100%;
+	width: 100%;
+}
+span{
+	display: flex;
+	justify-content: start;
+}
+.edit, .delete{
+	background-color: transparent;
+	border: none;
+	font-size: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+}
+.delete:hover{
+	color: red;
+}
